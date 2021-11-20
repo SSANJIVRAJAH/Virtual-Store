@@ -1,0 +1,258 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: papayawhip;
+}
+nav{
+  background: #666370;
+  justify-content:space-around;
+  align-items:center;
+  font-family:  sans-serif;
+
+}
+h3{
+  font-family:  sans-serif;
+}
+.navbar-brand{
+  color: papayawhip;
+  text-decoration: none;
+  font-family:  sans-serif;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.navbar-brand:hover{
+  color: chartreuse;
+}
+.navbar-nav{
+  display: flex;
+  justify-content:space-around;
+  width:70%;
+}
+.navbar-nav a{
+  color: papayawhip;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+.navbar-nav2{
+  display: flex;
+  justify-content: space-around;
+ width: fit-content;
+}
+.btn-primary{ 
+border: none;
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+.navbar-nav2 .btn:hover{
+  color: chocolate;
+  text-decoration: underline;
+}
+.navbar-nav a:hover{
+  color: chartreuse;
+  text-decoration: underline;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 peachpuff;
+    font-weight: bold;
+}
+body{
+  background-color: mintcream;
+  background-image: url('/images/monterey2.jpeg');
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50{padding: auto;}
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #666370;
+    opacity: 0.9;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    justify-content: center;
+    width: 500px;
+    margin: 0px auto;
+    margin-top:200px;
+    padding: 50px;
+    padding-left: 10%;
+  }
+  
+  input[type=text] {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    display: block;
+    width: auto;
+    padding-left: 200px;
+
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 8px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+    padding-right: 25%;
+    text-align: left;
+  }
+  .container-cart{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    justify-content: center;
+    width: 550px;
+    margin: 0px auto;
+    margin-top:0px;
+    padding: 50px;
+    padding-left: 10%;
+  }
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+  .image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+
+  .headerpay{
+  padding-left: 40%;
+  font-size: 70px;
+  /* padding-bottom: 100px; */
+}
+
+.paynow1{
+  padding-left: 40%;
+}
+
+.style{
+  margin-bottom: 60px;
+}
+.header{
+  padding-bottom: 90px;
+}
+
+.payment{
+  padding-left: 80%;
+}
+
+.required1{
+  padding-right: 50px;
+}
+
+.required2{
+  padding-right: 65px;
+}
+.required3{
+  padding-right: 60px;
+}
+.required4{
+  padding-right: 82px;
+}
+.required5{
+  padding-right: 15px;
+}
+.required6{
+  padding-right: 18px;
+  padding-top: 40px;
+}
+.required7{
+  padding-left: 179px;
+}
+.required8{
+  padding-left: 263px;
+}
+.form-submit1{
+  padding-left: 600px;
+}
+.donate-us{
+   padding-left:350px; 
+  font-size: 40px;
+}
+input[type=button], input[type=submit]{
+  background-color: greenyellow;
+  border: none;
+  color: white;
+  margin-right: 500px;
+  padding: 6px ;  
+  text-decoration: none;
+  cursor: pointer;}
+.pay1{
+  padding-right: 60px;
+}
+.select-list{
+  padding-left: 400px;
+padding-bottom: 30px;
+}

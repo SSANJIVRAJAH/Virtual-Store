@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: papayawhip;
+  text-align: center;
+
+}
+nav{
+  background: #666370;
+  justify-content:space-around;
+  align-items:center;
+  font-family:  sans-serif;
+
+}
+h3{
+  font-family:  sans-serif;
+}
+.navbar-brand{
+  color: papayawhip;
+  text-decoration: none;
+  font-family:  sans-serif;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.navbar-brand:hover{
+  color: chartreuse;
+}
+.navbar-nav{
+  display: flex;
+  justify-content:space-around;
+  width:70%;
+}
+.navbar-nav a{
+  color: papayawhip;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+.navbar-nav2{
+  display: flex;
+  justify-content: space-around;
+ width: fit-content;
+}
+.btn-primary{ 
+border: none;
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+.navbar-nav2 .btn:hover{
+  color: chocolate;
+  text-decoration: underline;
+}
+.navbar-nav a:hover{
+  color: chartreuse;
+  text-decoration: underline;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 peachpuff;
+    font-weight: bold;
+}
+body{
+    background-color: mintcream;
+    background-image: url('/images/monterey2.jpeg');
+    background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+table {
+  margin: 90px;
+    table-layout: fixed;
+    text-align: center;
+    opacity: 0.9;
+    width: 90%;
+    max-width: 90%;
+    border-collapse: collapse;
+    border: 3px papayawhip;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+    font-size: 20px;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+    font-size: 20px;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+    font-size: 20px;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+    font-size: 20px;
+  }
+  
+  th, td {
+    padding: 20px;
+  }
+  html {
+    font-family:'Merriweather', serif ;
+    font-size: 20px;
+  }
+  
+  thead th, tfoot th {
+    font-family: 'Rock Salt', cursive;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+
+  thead, tfoot {
+    background: url(leopardskin.jpg);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 3px solid #666370;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #666370;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color:grey;
+  }
+  
+  tbody tr {
+    background-image: url(noise.png);
+  }
+  
+  table {
+    background-color: #666370;
+    font-size: 20px;
+  }
+
+  caption {
+    font-family: 'Rock Salt', cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: #666;
+    text-align: right;
+    letter-spacing: 1px;
+  }
+
+img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 230px;
+      height: 180px;     
+  }
+
+
+.title{
+  text-align: center;
+  /* padding-left: 80px; */
+  font-size: 26px;
+}
+
+.buttons{
+  background-color: lightgreen;
+  border: none;
+  color: papayawhip;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}

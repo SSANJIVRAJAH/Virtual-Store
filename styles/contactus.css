@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: papayawhip;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background: #666370;
+    justify-content:space-around;
+    align-items:center;
+    font-family:  sans-serif;
+
+}
+h3{
+    font-family:  sans-serif;
+}
+.navbar-brand{
+    color: papayawhip;
+    text-decoration: none;
+    font-family:  sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.navbar-brand:hover{
+    color: chartreuse;
+}
+.navbar-nav{
+    display: flex;
+    justify-content:space-around;
+    width:70%;
+}
+.navbar-nav a{
+    color: papayawhip;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+.navbar-nav2{
+    display: flex;
+    justify-content: space-around;
+   width: fit-content;
+}
+.btn-primary{ 
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.navbar-nav2 .btn:hover{
+    color: chocolate;
+    text-decoration: underline;
+}
+.navbar-nav a:hover{
+    color: chartreuse;
+    text-decoration: underline;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 peachpuff;
+      font-weight: bold;
+}
+body{
+    background-image: url(/images/monterey2.jpeg);
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 100px auto;
+    justify-content: center;
+    opacity: 0.9;
+}
+.contact-box{
+    background: #666370;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #666370;
+}
+h1{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1.5px solid;
+    outline: none;
+    padding-bottom: 2px;
+}
+textarea{
+    width:100%;
+    border: 3px solid papayawhip;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: papayawhip;
+}
+.button1{
+    background: blue;
+    width: 100px;
+    border:none;
+    outline: none;
+    color: White;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px lightgray;
+}
+.contact-left h3{
+    color: papayawhip;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}

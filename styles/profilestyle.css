@@ -1,0 +1,216 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+  background: #666370;
+  justify-content:space-around;
+  align-items:center;
+  font-family:  sans-serif;
+
+}
+h3{
+  font-family:  sans-serif;
+}
+.navbar-brand{
+  color: papayawhip;
+  text-decoration: none;
+  font-family:  sans-serif;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.navbar-brand:hover{
+  color: chartreuse;
+}
+.navbar-nav{
+  display: flex;
+  justify-content:space-around;
+  width:70%;
+}
+.navbar-nav a{
+  color: papayawhip;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+.navbar-nav2{
+  display: flex;
+  justify-content: space-around;
+ width: fit-content;
+}
+.btn-primary{ 
+border: none;
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+.navbar-nav2 .btn:hover{
+  color: chocolate;
+  text-decoration: underline;
+}
+.navbar-nav a:hover{
+  color: chartreuse;
+  text-decoration: underline;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 peachpuff;
+    font-weight: bold;
+}
+
+h1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 17px;
+  color: papayawhip;
+}
+
+body{
+  text-align: center;
+  background-image: url('/images/monterey2.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size:auto;
+}
+
+img {
+  border-radius: 50%;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.button{ 
+  height: 35px;
+  width: 135px;
+  font-size: 17px;
+  border-radius: 15px;
+  font-family: sans-serif;
+  background-color: white;
+  color: black;
+  border-color: white;
+  border-width: small;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.button1{
+  text-align: center;
+  padding-left: 100px;
+}
+
+.XXX{
+  background-color: #666370;
+  border-style: solid;
+  border-color: papayawhip;
+  opacity: 0.9;
+  border-radius: 15px;
+  border-width: medium;
+  width: 900px;
+  height: 650px;
+  margin: 0px auto;
+  margin-top: 100px;
+  padding: 15px;
+}
+
+.textbox{ 
+  height: 25px;
+  width: 400px;
+  font-size: 17px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border-color: white;
+  background-color: white;
+}
+
+.Firstlastname{
+  padding-left: 0px;
+  font-size: 17px;
+}
+
+.AA{ 
+  height: 25px;
+  width: 400px;
+  font-size: 17px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border-color: white;
+  background-color: white;
+}
+
+.AA2{  
+  height: 25px;
+  width: 400px;
+  font-size: 17px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border-color: white;
+  background-color: white;
+}
+
+.AA1{
+  height: 70px;
+  width: 400px;
+  font-size: 17px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border-color: white;
+  background-color: white;
+}
+
+.email{
+  padding-left: 240px;
+  font-size: 17px;
+}
+
+.PP{
+  padding-left:170px;
+  font-size: 17px;
+}
+label{
+  color: papayawhip;
+}
+
+.RR{
+  color: papayawhip;
+  padding-left:50px;
+  font-size: 17px;
+}
+
+.QQ{
+  padding-left: 200px;
+  font-size: 17px;
+}
+
+.AA10{ 
+  height: 25px;
+  width: 400px;
+  font-size: 17px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border-color: white;
+  background-color: white;
+}
+
+.ZZ{
+  padding-left: 240px;
+  font-size: 17px;
+}
+
+input[type="radio"] {
+  margin-right: 100;
+  transform: scale(1);
+}
+

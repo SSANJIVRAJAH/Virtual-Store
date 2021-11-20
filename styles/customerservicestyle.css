@@ -1,0 +1,214 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: papayawhip;
+}
+nav{
+  background: #666370;
+  justify-content:space-around;
+  align-items:center;
+  font-family:  sans-serif;
+
+}
+h3{
+  font-family:  sans-serif;
+}
+.navbar-brand{
+  color: papayawhip;
+  text-decoration: none;
+  font-family:  sans-serif;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.navbar-brand:hover{
+  color: chartreuse;
+}
+.navbar-nav{
+  display: flex;
+  justify-content:space-around;
+  width:70%;
+}
+.navbar-nav a{
+  color: papayawhip;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+.navbar-nav2{
+  display: flex;
+  justify-content: space-around;
+ width: fit-content;
+}
+.btn-primary{ 
+border: none;
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+.navbar-nav2 .btn:hover{
+  color: chocolate;
+  text-decoration: underline;
+}
+.navbar-nav a:hover{
+  color: chartreuse;
+  text-decoration: underline;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 peachpuff;
+    font-weight: bold;
+}
+
+h1{
+  color: black;
+  font-family: serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.QQQ{
+  color: papayawhip;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #666370;
+  height: 50px;
+ padding-top: 3px;
+  font-family: serif;
+}
+body{
+  text-align: center;
+  background-image: url('/images/monterey2.jpeg');
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-size:auto;
+}
+.XXX{
+  background-color:#666370;
+  border-style: solid;
+  border-color: papayawhip;
+  border-radius: 15px;
+  border-width: medium;
+  width: 900px;
+  opacity: 100;
+  margin: 0px auto;
+  margin-top: 100px;
+  padding: 15px;
+  opacity: 0.9;
+}
+ 
+.faq{
+  font-size: 30px;
+  color: black;
+  padding-top: 30px;
+  text-decoration: none;
+  margin-left: 41px;
+  display: block;
+  font-weight: normal;
+  
+} 
+
+a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #666370;
+  float: left;
+  height: 51px;
+  width: 80%;
+  background: #fffefe;
+  font-family: serif;
+  margin-left: 43px;
+}
+
+form.example button {
+  float: left;
+  width: 9%;
+  padding: 12px;
+  background: #9c9c9c8a;
+  color: rgb(29, 28, 28);
+  font-size: 17px;
+  border: 1px solid #666370;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #666370;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contactus3 {
+  font-weight: normal;
+  font-family: serif;
+  font-size: 18px;
+}
+
+.contactus2 {
+  font-weight: bold;
+  font-family: serif;
+  font-size: 18px;
+}
+
+.contactus1 {
+  border-radius: 50%; 
+  padding: 0px;
+  margin-left: 25px; 
+  margin-top: 30px;
+}
+
+.contactus {
+  margin-top: 0%;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.button1{ 
+  height: 80px;
+  width: 180px;
+  font-size: 15px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  background-color: rgb(202, 207, 210);
+  color: rgb(0, 0, 0);
+  border-color: white;
+  border-width: small;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0%;
+}
+
+.announcement{
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.announcement1{
+  text-align: center;
+}

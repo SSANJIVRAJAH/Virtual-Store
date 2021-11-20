@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+	color: papayawhip;
+	font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background: #666370;
+    justify-content:space-around;
+    align-items:center;
+    font-family: 'Anton', sans-serif;
+    /* min-height: 8vh; */
+}
+h3{
+    font-family: 'Anton', sans-serif;
+}
+.navbar-brand{
+    color: papayawhip;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.navbar-brand:hover{
+    color: chartreuse;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content:space-around;
+    width:70%;
+}
+.navbar-nav a{
+    color: papayawhip;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+.navbar-nav2{
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+}
+.btn-primary{
+  
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+.navbar-nav2 .btn:hover{
+    color: chocolate;
+    text-decoration: underline;
+
+}
+.navbar-nav a:hover{
+    color: chartreuse;
+    text-decoration: underline;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 peachpuff;
+      font-weight: bold;
+}
+
+h1{
+	font-size: 30pt;
+	font-family: Serif;
+	text-align: center;
+	color: papayawhip;
+}
+
+body{
+	background-image: url('/images/monterey2.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size:auto;
+}
+a{
+	color: papayawhip;
+}
+
+.button1{
+	height: 40px;
+	width: 200px;
+	font-size: 20px;
+	border-radius: 18px;
+	font-family: Serif;
+	background-color: purple;
+	color: papayawhip;
+	border-color:papayawhip;
+	margin-left: 140px;
+	margin-right: 140px;
+}
+.container1{
+	background-color: #666370;
+	justify-content: center;
+	opacity: 0.9;
+	border-style: solid;
+	border-color: papayawhip;
+	border-radius: 18px;
+	width: 550px;
+	margin: 0px auto;
+	margin-top:200px;
+	padding: 50px;
+}
+
+
+.textbox{
+	width: 450px;
+	height: 30px;
+	padding-left: 10px;
+	padding-right: 50px;
+	font-size: 20px;
+	font-family: Serif;
+	padding-bottom: 0px;
+	color: black;
+}
+
+.ep{
+	font-size: 15pt;
+	text-align: left;
+	color: papayawhips;
+}
+
+.link{
+	color: black;
+	padding-left: 140px;
+	padding-right: 100px;
+}
+
+.fp{
+	text-align: right;
+	color: darkgrey;
+}
+
+
+label{
+	font-size:12pt;
+	color: papayawhip;
+	text-align: right;
+}
+
+footer{
+	margin-top: 150px;
+	height: 10px,
+}
