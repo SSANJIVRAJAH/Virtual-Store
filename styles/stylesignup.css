@@ -1,0 +1,164 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+	color: papayawhip;
+	font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background: #666370;
+    justify-content:space-around;
+    align-items:center;
+    font-family: 'Anton', sans-serif;
+    /* min-height: 8vh;*/
+}
+h3{
+    font-family: 'Anton', sans-serif;
+}
+.navbar-brand{
+    color: papayawhip;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.navbar-brand:hover{
+    color: chartreuse;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content:space-around;
+    width:70%;
+}
+.navbar-nav a{
+    color: papayawhip;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+.navbar-nav2{
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+}
+.btn-primary{
+  
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+.navbar-nav2 .btn:hover{
+    color: chocolate;
+    text-decoration: underline;
+
+}
+.navbar-nav a:hover{
+    color: chartreuse;
+    text-decoration: underline;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 peachpuff;
+      font-weight: bold;
+} 
+
+h1{
+	font-size: 30pt;
+	font-family: Serif;
+	color: papayawhip;
+}
+
+body{
+	background-image: url('/images/monterey2.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: auto;
+}
+
+.button2{
+	height: 40px;
+	width: 200px;
+	font-size: 20px;
+	border-radius: 18px;
+	font-family: Serif;
+	background-color: purple;
+	color: white;
+	border-color:white;
+}
+
+.container2{
+	background-color: #666370;
+	opacity: 0.9;
+	border-style: solid;
+	border-color: papayawhip;
+	border-radius: 18px;
+	width: 600px;
+	height: auto;
+	margin: 0px auto;
+	margin-top: 100px;
+	padding: 50px;
+	text-align: center;
+}
+
+.textbox{
+	width: 500px;
+	height: 30px;
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: Serif;
+	color: black;
+}
+
+.textbox2{
+	width: 30px;
+	height: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 18px;
+	font-family: Serif;
+	color: black;
+}
+
+.textbox3{
+	width: 500px;
+	height: 30px;
+	font-size: 18px;
+	font-family: Serif;
+	color: black;
+}
+.textbox4{
+	width: 500px;
+	height: 30px;
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: Serif;
+	text-align: center;
+	color: black;
+}
+	
+
+::placeholder{
+	color:grey;
+	opacity:0.8;
+	font-family: Serif;
+	font-size: 17px;
+	text-align: center;
+	color: black;
+}
+
+.ep{
+	font-size: 12pt;
+	text-align: left;
+}
+.link{
+	color: black;
+}
+
